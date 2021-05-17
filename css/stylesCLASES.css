@@ -234,12 +234,11 @@ ul#listaFooter {
 	}
 
 	#section {
-
 	display: flex;
     justify-content: space-between;
 	align-items: center;
     background: #65cdfc;
-	height: 45px; 
+	height: 60px; 
 	}
 
 
@@ -289,8 +288,11 @@ ul#listaFooter {
         background: #65cdfc;  
     }
 
-
-
+	div#idiomas {
+		font-size: 20px;
+		padding-left: 15px;
+		font-family: 'Lato', sans-serif;
+	}
 	
 	#figure-clases {
         display: flex;
@@ -383,7 +385,7 @@ ul#listaFooter {
 	}
 
 	label {
-		font-size: 24px;
+		font-size: 30px;
 	}
 
 	ul#listaFooter {
@@ -419,9 +421,10 @@ ul#listaFooter {
 		background-color: #65cdfc ;
 	}
 
-	#english {
-		font-size: 14px;
+	div#idiomas {
+		font-size: 20px;
 		padding-left: 15px;
+		font-family: 'Lato', sans-serif;
 	}
 
 	#close-mobile-menu {
@@ -491,14 +494,29 @@ ul#listaFooter {
 
 	p.texto-areas {
 		font-size: 18px;
-		width: 200%;
+		width: 100%;
 	}
 	
 	#span-clases-presenciales {
 		font-size: 10px;
 		font-family: 'Lato', sans-serif;
-		width: 100%;
+		width: 80%;
 		text-align: center;
+	}
+
+	.areas {
+		height: 300px;
+		padding: 15px;
+	}
+
+	#contactate-clases { 
+		height: 600px;
+		padding: 15px;
+	}
+
+	label{
+		font-size: 16px;
+
 	}
 
 	#logo,
