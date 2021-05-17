@@ -288,11 +288,6 @@ ul#listaFooter {
         background: #65cdfc;  
     }
 
-	#span-bienvenides {
-		font-size: 20px;
-		font-family: 'Lato', sans-serif; 
-	}
-
 	#inicio {
 		font-size: 40px;
 	}
@@ -301,51 +296,7 @@ ul#listaFooter {
 		font-size: 16px;
 	}
 
-	#article-pilates,
-	#article-danza {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 20px;
 	
-	}
-
-	#article-yoga,
-	#article-entrenamiento {
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-		padding: 20px;
-	}
-
-	#texto-pilates,
-	#texto-entrenamiento,
-	#texto-danza,
-	#texto-yoga { 
-	left: 0px;
-    right: 0px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-	font-size: 35px;
-	font-family: 'Lato', sans-serif;
-	position: relative;
-	padding: 10px;
-}
-
-.fotos-cuerpo {
-	width: 80%;
-	margin: 0px;
-	border-radius: 35%;
-}
-
-#h3-pilates,
-#h3-danza,
-#h3-yoga,
-#h3-entrenamiento {
-	font-size: 70px;
-	padding: 0;
-}
 
 
 ul#listaFooter {
@@ -431,47 +382,9 @@ ul#listaFooter {
 		background-color: #f3dbfb;
 	}
 
-	#article-pilates,
-	#article-danza {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 20px;
-	
-	}
 
-	#article-yoga,
-	#article-entrenamiento {
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-		padding: 20px;
-	}
 
-	
 
-	#texto-pilates,
-	#texto-entrenamiento,
-	#texto-danza,
-	#texto-yoga { 
-	left: 0px;
-    right: 0px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-	font-size: 18px;
-	font-family: 'Lato', sans-serif;
-	position: relative;
-	padding: 10px;
-}
-
-	#h3-pilates,
-	#h3-danza,
-	#h3-yoga,
-	#h3-entrenamiento {
-	font-size: 30px;
-	padding: 0;
-}
 
 img#ilustracion {
     width: 200px;
@@ -485,17 +398,7 @@ img#ilustracion {
 	border-radius: 50%;
 	transition: all 1s ease;
 }
-ul#listaRedes {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    color: #000000;
-    background-color: #f3dbfb;
-    position: relative;
-    box-shadow: 0px 0px 15px #5ec2f0;
-}
+
 
 ul#listaFooter {
     display: flex;
