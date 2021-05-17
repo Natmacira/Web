@@ -67,23 +67,18 @@ ul#listaInicio {
         border-style: solid;
         border-color: #f3dbfb;
         padding-left: 100px;
+		padding-right: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
         background-color:  #f3dbfb;
     }
 
 
-figure:nth-child(2) {
-	align-items: flex-end;
-	
-
-}
-
 #ilustracion-clases {
 	width: 300px;
 	max-width: 100%;
-	margin: none;
 	border-radius: 35%;
+	
 }
 
 figcaption h1 {
@@ -98,6 +93,7 @@ figcaption h1 {
 figcaption p {
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
+	width: 50%;
 }
 
 a:link {
@@ -117,10 +113,23 @@ a {
 	scroll-behavior: smooth;
 }
 
-#span-bienvenides {
-	font-size: 40px;
+#span-clases-presenciales {
+	font-size: 16px;
 	font-family: 'Lato', sans-serif; 
+	width: 40%;
+	text-align: center;
 }
+
+#div-presenciales {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+/* por qué no me toma el space around entre el div y el p */
 
 
 /* main */
@@ -128,7 +137,7 @@ a {
 .areas	{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	border-style: solid;
 	border-color: #ffffff;
@@ -142,13 +151,12 @@ a {
 	
 }
 
-#span-clases-presenciales {
-    font-size: 12px;
-    line-height: 0;
-}
+
 
 p.texto-areas {
 	font-size: 25px;
+	width: 40%;
+    text-align: center;
 }
 
 
@@ -170,7 +178,8 @@ h3.titulos-areas {
 #form {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-
+	display: flex;
+    flex-direction: column;
 }
 
 .input {
@@ -182,6 +191,7 @@ h3.titulos-areas {
 
 #submit {
 	padding: 5px;
+	width: 100px;
 }
 
 #submit:hover {

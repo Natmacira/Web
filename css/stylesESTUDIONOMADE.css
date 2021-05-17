@@ -67,17 +67,14 @@ ul#listaInicio {
         border-style: solid;
         border-color: #f3dbfb;
         padding-left: 100px;
+		padding-right: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
         background-color:  #f3dbfb;
     }
 
 
-figure:nth-child(2) {
-	align-items: flex-end;
-	
 
-}
 
 #ilustracion-clases {
 	width: 300px;
@@ -86,18 +83,14 @@ figure:nth-child(2) {
 	border-radius: 35%;
 }
 
-figcaption h1 {
-	font-size: 40px;
-	margin-bottom: 10px;
-	font-family: 'Lato', sans-serif; 
-	
-}
+
 
 
 
 figcaption p {
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
+	width: 75%;
 }
 
 a:link {
@@ -117,10 +110,6 @@ a {
 	scroll-behavior: smooth;
 }
 
-#span-bienvenides {
-	font-size: 40px;
-	font-family: 'Lato', sans-serif; 
-}
 
 
 /* main */
@@ -138,54 +127,31 @@ a {
 	padding-bottom: 50px;
 	box-shadow: 0px 0px 15px #5ec2f0;
 	background-color: #ffffff;
-	height: 300px;
+	height: 600px;
 	
 }
 
-#span-clases-presenciales {
-    font-size: 12px;
-    line-height: 0;
-}
+
 
 p.texto-areas {
-	font-size: 25px;
-}
-
-
-
-h3.titulos-areas {
-	font-size: 40px;
-	font-family: 'Lato', sans-serif; 
-	text-align: center	
-}
-
-#contactate-clases {
-	background-color:#f3dbfb;
-	border-color:#f3dbfb;
-	height: 500px;
-	display: flex;
-	justify-content: space-around;
-}
-
-#form {
+	font-size: 18px;
+	width: 50%;
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-
 }
 
-.input {
+#foto-nati {
+	width: 25%;
+	margin: 0px;
+	border-radius: 50%
+}
+
+#fin {
+	height: 400px;
+	background-color: #f3dbfb;
 	box-shadow: 0px 0px 15px #5ec2f0;
-	margin: 8px;
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-}
-
-#submit {
-	padding: 5px;
-}
-
-#submit:hover {
-	background-color: #65cdfc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .link-contacto:hover {
