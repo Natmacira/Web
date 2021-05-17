@@ -240,7 +240,8 @@ ul#listaFooter {
 	align-items: center;
     background: #65cdfc;
 	height: 45px; 
-}
+	}
+
 
 	
 
@@ -288,26 +289,112 @@ ul#listaFooter {
         background: #65cdfc;  
     }
 
-	#inicio {
-		font-size: 40px;
-	}
 
-	#texto-inicio {
-		font-size: 16px;
-	}
 
 	
+	#figure-clases {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: #f3dbfb;
+        padding-left: 100px;
+		padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color:  #f3dbfb;
+    }
 
+	figcaption {
+		text-align: center;	
+		padding-top: 10px;
+	}
 
-ul#listaFooter {
+	figcaption h1 {
+		font-size: 50px;
+		margin-bottom: 10px;
+		font-family: 'Lato', sans-serif;
+	}
+
+	figcaption p {
+		width: 100%;
+		font-size: 30px;
+	}
+
+	#ilustracion-clases {
+		width: 70%;
+		max-width: 100%;
+		margin: auto;
+		border-radius: 35%;
+		}
+
+	.areas	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		border-style: solid;
+		border-color: #ffffff;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		box-shadow: 0px 0px 15px #5ec2f0;
+		background-color: #ffffff;		
+		height: 500px;
+	}
+
+	h3.titulos-areas {
+		font-size: 60px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+	}
+
+	#clases-virtuales,
+	#clases-grupales {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#contactate-clases {
+		background-color: #f3dbfb;
+		border-color: #f3dbfb;
+		height: 800px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	p.texto-areas {
+		font-size: 35px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#span-clases-presenciales {
+		font-size: 18px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+		width: 100%;
+	}	
+		
+	#div-form{
+		width: 100%;
+	}
+
+	label {
+		font-size: 24px;
+	}
+
+	ul#listaFooter {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-}
+	}
 
-.li-footer {
+	.li-footer {
 	padding: 10px;
 }
 
@@ -371,36 +458,58 @@ ul#listaFooter {
         background: #65cdfc;  
     }
 
-	figure {
+	
+
+	#figure-clases {
 		display: flex;
 		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
 		border-style: solid;
 		border-color: #f3dbfb;
-		padding-left: 2px;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding: 15px;
 		background-color: #f3dbfb;
 	}
 
+	
 
+	figcaption h1 {
+		font-size: 20px;
+		margin-bottom: 10px;
+		font-family: 'Lato', sans-serif;
+	}
 
+	/* forma de pez medio raro */
 
+	figcaption p {
+		font-size: 16px;
+	}
+	
+	h3.titulos-areas {
+		font-size: 40px;
+	}
 
-img#ilustracion {
-    width: 200px;
-	max-width: 100%;
-	margin: auto;
-	border-radius: 35%;
-}
-#logo,
-#logo-footer {
+	p.texto-areas {
+		font-size: 18px;
+		width: 200%;
+	}
+	
+	#span-clases-presenciales {
+		font-size: 10px;
+		font-family: 'Lato', sans-serif;
+		width: 100%;
+		text-align: center;
+	}
+
+	#logo,
+	#logo-footer {
 	width: 80px;
 	border-radius: 50%;
 	transition: all 1s ease;
-}
+	}
 
 
-ul#listaFooter {
+	ul#listaFooter {
     display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -412,5 +521,5 @@ ul#listaFooter {
     color: #000000;
     background-color: #65cdfc;
     position: relative;
-}
+	}
 }

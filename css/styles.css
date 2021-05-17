@@ -62,6 +62,8 @@ ul#listaInicio {
 figure {
 	display: flex;
 	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
 	border-style: solid;
 	border-color: #f3dbfb;
 	padding-left: 100px;
@@ -78,7 +80,7 @@ figure:nth-child(2) {
 }
 
 img#ilustracion {
-    width: 300px;
+    width: 25%;
 	max-width: 100%;
 	margin: auto;
 	border-radius: 35%;
@@ -93,7 +95,7 @@ figcaption h1 {
 
 
 figcaption p {
-	font-size: 20px;
+	font-size: 30px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -281,9 +283,33 @@ ul#listaFooter {
         background: #65cdfc;  
     }
 
+	figure {
+		
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		border-style: solid;
+		border-color: #f3dbfb;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #f3dbfb;
+	}
+	
+	h1 {
+		text-align: center;
+		font-size: 60px;
+	}
+
 	#span-bienvenides {
-		font-size: 20px;
+		font-size: 50px;
 		font-family: 'Lato', sans-serif; 
+		text-align: center;
+	}
+	figure img#ilustracion {
+		width: 100%;
 	}
 
 	#inicio {
@@ -291,7 +317,8 @@ ul#listaFooter {
 	}
 
 	#texto-inicio {
-		font-size: 16px;
+		font-size: 30px;
+		text-align: center;
 	}
 
 	#article-pilates,
@@ -323,7 +350,7 @@ ul#listaFooter {
 	font-size: 35px;
 	font-family: 'Lato', sans-serif;
 	position: relative;
-	padding: 10px;
+	padding: 20px;
 }
 
 .fotos-cuerpo {
@@ -416,12 +443,24 @@ ul#listaFooter {
 	figure {
 		display: flex;
 		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
 		border-style: solid;
 		border-color: #f3dbfb;
-		padding-left: 2px;
-		padding-top: 50px;
-		padding-bottom: 50px;
 		background-color: #f3dbfb;
+		padding: 20px;
+	}
+
+	#span-bienvenides {
+		font-size: 30px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+	}
+
+	#texto-inicio {
+		font-size: 20px;
+		text-align: center;
+		width: 100%;
 	}
 
 	#article-pilates,
@@ -466,10 +505,9 @@ ul#listaFooter {
 	padding: 0;
 }
 
-img#ilustracion {
-    width: 200px;
+	figure img#ilustracion {
+    width: 100%;
 	max-width: 100%;
-	margin: auto;
 	border-radius: 35%;
 }
 #logo,
