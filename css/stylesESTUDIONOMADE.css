@@ -265,7 +265,7 @@ ul#listaFooter {
 	}
 
 	#ilustracion-clases {
-		width: 50%;
+		width: 90%;
 		max-width: 100%;
 		margin: none;
 		border-radius: 35%;
@@ -329,11 +329,6 @@ ul#listaFooter {
 		background-color: #65cdfc ;
 	}
 
-	#english {
-		font-size: 14px;
-		padding-left: 15px;
-	}
-
 	#close-mobile-menu {
 		display: none;
 		
@@ -388,11 +383,19 @@ ul#listaFooter {
 
 
     #ilustracion-clases {
-    width: 80%;
+    width: 100%;
 	max-width: 100%;
 	margin: auto;
 	border-radius: 35%;
 	}
+
+	#section {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: #65cdfc;
+		height: 60px;
+	}	
 
 	p.texto-areas {
 		font-size: 14px;

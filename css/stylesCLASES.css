@@ -353,6 +353,7 @@ ul#listaFooter {
 		font-size: 60px;
 		font-family: 'Lato', sans-serif;
 		text-align: center;
+		width: 100%;
 	}
 
 	#clases-virtuales,
@@ -504,6 +505,10 @@ ul#listaFooter {
 		font-family: 'Lato', sans-serif;
 		width: 80%;
 		text-align: center;
+	}
+
+	#div-presenciales {
+		width: 100%;
 	}
 
 	.areas {
