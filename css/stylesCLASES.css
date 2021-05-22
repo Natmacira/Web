@@ -114,9 +114,9 @@ a {
 }
 
 #span-clases-presenciales {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: 'Lato', sans-serif; 
-	width: 40%;
+	width: 60%;
 	text-align: center;
 }
 
@@ -125,9 +125,10 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
-
+	width: 60%;
 }
+
+
 
 /* por qué no me toma el space around entre el div y el p */
 
@@ -155,8 +156,8 @@ a {
 
 p.texto-areas {
 	font-size: 25px;
-	width: 40%;
-    text-align: center;
+	width: 50%;
+    text-align: justify;
 }
 
 
@@ -164,7 +165,8 @@ p.texto-areas {
 h3.titulos-areas {
 	font-size: 40px;
 	font-family: 'Lato', sans-serif; 
-	text-align: center	
+	text-align: center;
+	width: 30%;
 }
 
 #contactate-clases {
