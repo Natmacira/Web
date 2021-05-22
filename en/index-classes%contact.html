@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Nómade</title>
+    <link rel="stylesheet" href="css/stylesCLASES.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a794985fd2.js" crossorigin="anonymous"></script>
+    <script src="./js/JS.js"></script>
+</head>
+
+<body>
+    <header>
+        <section id="section">
+            <div id="idiomas"><a href="./en/index-inglés.html" id="english"><strong>English</strong> - </a><a href=""
+                    id="frances"><strong>Français</strong></a></div>
+            <button id="burger-menu-toggler"><i class="fas fa-bars fa-3x" id="open-mobile-menu"></i><i
+                    class="fas fa-window-close fa-3x" id="close-mobile-menu"></i></button>
+        </section>
+        <nav>
+
+            <ul id="listaInicio">
+                <li><img src="./img/Natilogo_blanco.jpg" alt="logoBlanco" id="logo"></li>
+                <li class="menu-item"><a href="./index.html">Inicio</a></li>
+                <li class="menu-item"><a href="./index-clases&contacto.html">Clases</a></li>
+                <li class="menu-item"><a href="#contactate-clases">Contacto</a></li>
+                <li id="li-redes" class="menu-item"><a href="./index.html#listaRedes">Redes</a></li>
+                <li class="menu-item"><a href="./index-estudionomade.html">Estudio Nómade</a></li>
+            </ul>
+        </nav>
+        <figure id="figure-clases"><img src="./img/natmacira2.jpg" alt="ilustración" id="ilustracion-clases">
+            <figcaption>
+                <h1 id="h1-clases">Estudio Nómade </h1>
+                <p id="texto-clases">Ofrece diferentes estilos de clases para que cada persona desde su singularidad
+                    elija la disciplina con la que se siente más a gusto para ponerse en movimiento.
+                </p>
+            </figcaption>
+        </figure>
+    </header>
+    <main>
+        <article class="areas" id="clases-virtuales">
+
+            <p class="texto-areas"> Podés tomar clases <strong>desde cualquier parte del mundo</strong> Sólo
+                necesitás conexión a
+                internet y un par de metros cuadrados.
+            </p>
+            <h3 class="titulos-areas">Clases Virtuales</h3>
+        </article>
+
+        <article class="areas" id="article-pilates">
+            <div id="div-presenciales">
+                <h3 class="titulos-areas">Clases presenciales</h3>
+                <p id="span-clases-presenciales"> <em> Estas clases se
+                        dan teniendo en cuenta los protocolos vigentes en el día de la fecha en relación a la prevención
+                        del
+                        Covid-19.</em></p>
+            </div>
+
+            <p class="texto-areas"> Clases nómades, no desaproveches la oportunidad de que nos encontremos
+                presencialmente cuando pase por tu ciudad.<strong> Actualmente en Buenos Aires.</strong>
+            </p>
+        </article>
+        <article class="areas" id="clases-grupales">
+
+            <p class="texto-areas"> Las clases pueden ser en grupo o individuales. En ambas modalidades se trabaja
+                de manera personalizada con cada alumnx. </p>
+            <h3 class="titulos-areas" id="clases-modalidad">Clases grupales o individuales</h3>
+        </article>
+        <article class="areas" id="contactate-clases">
+            <p class="texto-areas">¡Contactate para contarme que estás buscando y que juntes encontremos cual es la
+                mejor opción para vos! Dejame aquí tu consulta, envíame un <a class="link-contacto"
+                    href="mailto:natmaciraestudionomade@gmail.com"> <em>correo
+                        electrónico</em></a> o un
+                <a class="link-contacto" href="https://api.whatsapp.com/send/?phone=5491173690888&text&app_absent=0">
+                    <em>WhatsApp</em>. </a>
+            </p> <br>
+
+            <div id="div-form">
+                <form action="contactarse" id="form">
+                    <label for="nombre">Nombre:</label> <input class="input" type="text" id="nombre" required>
+                    <label for="consulta">Consulta:</label><textarea class="input" name="texto-consulta" id="textarea"
+                        cols="30" rows="10" required></textarea>
+                    <label for="mail">E-mail:</label><input class="input" type="mail" id="email" required>
+                    <input class="input" type="submit" id="submit">
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <ul id="listaFooter">
+            <li><img src="./img/Natilogo_blanco.jpg" alt="foto-logo" id="logo-footer"></li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
