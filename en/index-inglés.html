@@ -6,91 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio Nómade</title>
-    <link rel="stylesheet" href="../en/css/styles.css">
+    <link rel="stylesheet" href="../en/css/stylesEN.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Courgette&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a794985fd2.js" crossorigin="anonymous"></script>
+    <script src="./js/JS.js"></script>
 </head>
 
 <body>
     <header>
-        <div id="english"><a href="../index.html"><strong>Spanish</strong></a></div>
+        <section id="section">
+            <div id="idiomas"><a href="../index.html" id="english"><strong>Español</strong> - </a><a
+                    href="../fr/index-francés.html" id="frances"><strong>Français</strong></a></div>
+            <button id="burger-menu-toggler"><i class="fas fa-bars fa-3x" id="open-mobile-menu"></i><i
+                    class="fas fa-window-close fa-3x" id="close-mobile-menu"></i></button>
+        </section>
         <nav>
 
             <ul id="listaInicio">
-                <li><img src="../en/img/Natilogo_blanco.jpg" alt="logoBlanco" id="logo"></li>
-                <li><a href="#inicio"><label for="inicio">Home</label></a></li>
-                <li><a href="../Web/index-clases.html" target="_blank"><label for="clases">Classes</label></a></li>
-                <li><a href="../Web/index-nosotres.html" target="_blank"><label for="nosotres"
-                            id="estudio-nomade">Estudio Nómade</label></a></li>
-                <li><a href="../Web/index-contacto.html" target="_blank"><label for="Contacto">Contact</label></a></li>
-                <li id="li-redes"><a href="#listaRedes"><label for="redes">Social media</label></a></li>
+                <li><img src="./img/Natilogo_blanco.jpg" alt="logoBlanco" id="logo"></li>
+                <li class="menu-item"><a href="#inicio">Inicio</a></li>
+                <li class="menu-item"><a href="./index-clases&contacto.html">Classes</a></li>
+                <li class="menu-item"><a href="./index-clases&contacto.html#contactate-clases">Contact</a></li>
+                <li id="li-redes" class="menu-item"><a href="#listaRedes">Social Media</a></li>
+                <li class="menu-item"><a href="./index-estudionomade.html">Estudio Nómade</a></li>
             </ul>
         </nav>
-        <figure id="figure"><img src="../en/img/natmacira2.jpg" alt="ilustración" id="ilustracion">
+        <figure id="figure"><img src="./img/natmacira2.jpg" alt="ilustración" id="ilustracion">
             <figcaption>
-                <h1 id="inicio">Welcome!! <br> <span id="span-bienvenides">to Estudio Nómade </span> </h1>
-                <p id="texto-inicio"> Here you will be able to find classes to put the body in movement,<br>
-                    and from there also move the breath, the mind and everything you want. <br>
-                    We work from a safe place, where you can feel comfortable, <br>
-                    respecting your personal searches and at the same time urging you to go beyond what you had thought.
+                <h1 id="inicio">Welcome <br> <span id="span-bienvenides">to Estudio Nómade </span> </h1>
+                <p id="texto-inicio"> We offer you classes to move your body, conect with your breathing, your mind and
+                    everything you want.
+                    We work in a safty environment, where you can feel comfortable,
+                    respecting your personal searches and at the same time encouraging you to go beyond what you had
+                    previously thought.
                 </p>
             </figcaption>
         </figure>
     </header>
     <main>
         <article class="areas" id="article-yoga">
-            <img src="../en/img/fotoyoga.jpg" alt="foto-yoga" class="fotos-cuerpo">
-            <p id="texto-yoga" class="texto-areas">this is a text where <br>I'm going to put some words
-                <br>introductive to yoga
+            <img src="./img/fotoyoga.jpg" alt="foto-yoga" class="fotos-cuerpo">
+            <p id="texto-yoga" class="texto-areas">
+                In Yoga we seek harmony between the body (Asanas), the breath (Pranayama) and the mind (Meditation).
+                The Yoga is an ancient philosophy born in India. As any philosophy, there are different ways to
+                interpret it.
+                I choose to rethink and reformulate some old mandates that it brings with it and enhance the wonderful
+                tools of self-knowledge that the Yoga brings us.
+
             </p>
             <h3 id="h3-yoga" class="titulos-areas">Yoga</h3>
         </article>
         <article class="areas" id="article-pilates">
             <h3 class="titulos-areas" id="h3-pilates">Pilates</h3>
-            <p id="texto-pilates" class="texto-areas">this is a text where <br>I'm going to put some words
-                <br>introductive to yoga
+            <p id="texto-pilates" class="texto-areas">
+                In Pilates the harmony of our body is the most important thing, we seek to train the different muscle
+                chains, respecting our own anatomies, preventing injuries and unnecessary tensions.
+                Strength, flexibility, coordination and breathing are the axes of this technique.
+                <br>
+                Pilates was born in the early twentieth century during the first world war in a hospital ward.
+                Joseph Pilates, created it in response to the need to rehabilitate himself and his companions.
             </p>
 
-            <img src="../en/img/natipilates.jpg" alt="foto-pilates" class="fotos-cuerpo">
+            <img src="./img/natipilates.jpg" alt="foto-pilates" class="fotos-cuerpo">
         </article>
         <article class="areas" id="article-entrenamiento">
-            <img src="../en/img/nati funcional.jpg" alt="foto-training" class="fotos-cuerpo">
-            <p id="texto-entrenamiento" class="texto-areas">this is a text where <br>I'm going to put some words
-                <br>introductive to yoga
+            <img src="./img/nati funcional.jpg" alt="foto-training" class="fotos-cuerpo">
+            <p id="texto-entrenamiento" class="texto-areas">
+                The training classes are designed for those who want to increase their overall physical performance. We
+                work aerobically and anaerobically, going through the main muscle chains of the body.
+                We never leave aside physical health, that is why in these classes we look for the right balance between
+                increasing the physical power without leaving behind the general state of the body.
             <h3 id="h3-entrenamiento" class="titulos-areas">Training</h3>
         </article>
         <article class="areas" id="article-danza">
             <h3 class="titulos-areas" id="h3-danza">Dance</h3>
-            <p id="texto-danza" class="texto-areas">this is a text where <br>I'm going to put some words
-                <br>introductive to yoga
+            <p id="texto-danza" class="texto-areas">
+                Dance is for me a way to move in life, everything is danceable, I find dance everywhere, from small daily movements to big choreographies.
+                Dancing is undoubtedly my greatest
+                happiness and passion.
+                That's why in my classes what interests me the most is to accompany the process of each student towards the
+                connection with their own dance
+                the different rhythms that inhabit us, the infinite forms and shapes that our body can go through.
+                   And above all the enjoyment, the pleasure, the inner fire that dance ignites.
             </p>
-            <img src="../en/img/natidanza.jpg" alt="foto-danza" class="fotos-cuerpo">
+            <img src="./img/natidanza.jpg" alt="foto-danza" class="fotos-cuerpo">
         </article>
         <article id="sectorRedes">
             <ul id="listaRedes">
-                <li><a href="https://www.instagram.com/natmacira/" target="_blank" id="listaIg">Instagram</a></li>
-                <li><a href="https://www.facebook.com/estudionatmacira" target="_blank" id="listaFc">Facebook</a></li>
-                <li><a href="https://www.youtube.com/channel/UCwuPwy0H5ajVqd5_zoAUywg" target="_blank"
-                        id="listaYouTube">YouTube</a></li>
+                <li class="li-redes"><a href="https://www.instagram.com/natmacira/" target="_blank" id="listaIg"> <i
+                            class="fab fa-instagram"></i>Instagram</a></li>
+                <li class="li-redes"><a href="https://www.facebook.com/estudionatmacira" target="_blank" id="listaFc"><i
+                            class="fab fa-facebook"></i>Facebook</a></li>
+                <li class="li-redes"><a href="https://www.youtube.com/channel/UCwuPwy0H5ajVqd5_zoAUywg" target="_blank"
+                        id="listaYouTube"><i class="fab fa-youtube"></i>YouTube</a></li>
 
             </ul>
         </article>
     </main>
     <footer>
         <ul id="listaFooter">
-            <li><img src="../en/img/Natilogo_blanco.jpg" alt="foto-logo" id="logo-footer"></li>
-            <li id="fotografia"><span><strong>Photography Marcela Saenz Castro</strong><br><a
+            <li class="li-footer"><img src="./img/Natilogo_blanco.jpg" alt="foto-logo" id="logo-footer"></li>
+            <li class="li-footer" id="fotografia"> <span><strong>Photographer Marcela Saenz Castro</strong><br><a
                         href="https://www.instagram.com/mar.cela.sc/" target="_blank">@mar.cela.sc</a><br><br>
-                    <strong>Ilustración Milagros Vitale</strong> <br>
-                    <a href="https://www.instagram.com/opni_/" target="_blank">@opni_</a></span></li>
-                    <li class="li-footer" id="mail"><a
-                        href="mailto:natmaciraestudionomade@gmail.com">natmaciraestudionomade@gmail.com</a> </li>
-                <li class="li-footer" id="wsp"> <a
-                        href="https://api.whatsapp.com/send/?phone=5491173690888&text&app_absent=0"><i
-                            class="fab fa-whatsapp">WhatsApp</i></a>
-                </li>
+                    <strong>Ilustration Milagros Vitale</strong> <br>
+                    <a href="https://www.instagram.com/opni_/" target="_blank">@opni_</a>
+                </span></li>
+            <li class="li-footer" id="mail"><a
+                    href="mailto:natmaciraestudionomade@gmail.com">natmaciraestudionomade@gmail.com</a> </li>
+            <li class="li-footer" id="wsp"> <a
+                    href="https://api.whatsapp.com/send/?phone=5491173690888&text&app_absent=0" target="_blank"><i
+                        class="fab fa-whatsapp">WhatsApp</i></a>
+            </li>
         </ul>
 
     </footer>
